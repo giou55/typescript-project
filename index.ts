@@ -1,6 +1,6 @@
 const text = "world";
 
-export function hello(t: string = text): string {
+function hello(t: string = text): string {
   return `Hello ${t}! `;
 }
 
